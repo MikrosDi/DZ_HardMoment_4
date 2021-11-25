@@ -7,14 +7,7 @@
 #include <chrono>
 #include <numeric>
 
-
 using namespace std;
-
-
-
-
-
-
 
 /*Task 1
 Имеется отсортированный массив целых чисел.
