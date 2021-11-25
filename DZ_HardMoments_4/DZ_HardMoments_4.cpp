@@ -34,7 +34,7 @@ void inform(const T& v)
 Выведите получившиеся массивы чисел. Посчитайте ошибку, которой обладает цифровой сигнал по сравнению с аналоговым */
 
 
-const size_t size_two = 10;
+const size_t size_two = 12;
 
 int getRandomNumber(int min, int max)
 {
