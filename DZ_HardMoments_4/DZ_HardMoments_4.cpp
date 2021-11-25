@@ -49,7 +49,7 @@ void VectorGenerateError()
     vector<float> vector_one(size_two);
     generate(vector_one.begin(), vector_one.end(), []() { return float(getRandomNumber(1, 100)) + (float(getRandomNumber(1, 100)) / 100); });
 
-    cout << "Вектор вещественный чисел:"<< endl;
+    cout << "Вектор вещественных чисел:"<< endl;
     for (auto n : vector_one)
     {
         cout  << n << '\t';
