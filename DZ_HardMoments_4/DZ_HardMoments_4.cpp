@@ -44,7 +44,7 @@ int getRandomNumber(int min, int max)
     return dis(generator);
 }
 
-void VectorGenerateEror() 
+void VectorGenerateError() 
 {
     vector<float> vector_one(size_two);
     generate(vector_one.begin(), vector_one.end(), []() { return float(getRandomNumber(1, 100)) + (float(getRandomNumber(1, 100)) / 100); });
@@ -117,7 +117,7 @@ int main()
     {
         cout << "Задание 2\n\n";
 
-        VectorGenerateEror();
+        VectorGenerateError();
     }
 
     return 0;
